@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VerInformacion</title>
+</head>
+<body>
+    <div>
+        <b> Nombre</b> @ViewBag.Nombre<br />
+        <b> Apellido</b> @ViewBag.Apellido<br />
+        <b> Edad</b> @ViewBag.Edad<br />
+        <b>Talla</b> @ViewData["talla"]<br />
+        <b> gdhdh</b> @ViewData["sexo"]<br />
+        <b> fecha y hora</b> @ViewData["fechahora"]<br />
+        @Html.TextBox("Apellido",ViewData["Apellido"])
+    </div>
+</body>
+</html>
