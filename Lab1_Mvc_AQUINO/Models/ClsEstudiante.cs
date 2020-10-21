@@ -12,5 +12,6 @@ namespace Lab1_Mvc_AQUINO.Models
         public double talla { set; get; }
         public bool sexo{ set; get; }
         public int edad { set; get; }
+         public int OK { set; get; }
     }
 }
